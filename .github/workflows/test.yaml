@@ -5,11 +5,11 @@ on:
   pull_request:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   check:
-    runs-on: Ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo 3
         uses: actions/checkout@v3
